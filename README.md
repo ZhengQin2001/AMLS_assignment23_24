@@ -1,4 +1,7 @@
-AMLS Assignment 23_24
+## AMLS Assignment 23_24
+
+
+
 
 main.py: Outputs the results of the pretrained models, CNN, Deep CNN model 1 & 2, and ResNet.
 requirements.txt: The packages used in this project.
@@ -25,5 +28,7 @@ This folder contains:
   PreprocessingB.py: This is based on MedmnistDataSet.py and equiped with all methods used for preprocessing in Task B.
   Model_training_path.py: This contains all the methods used for model training in Task B, except ResNet.
   Model_training.torch.py: This is the training class for ResNet.
+  test.py: This is the test file for the functionalities in preprocessing stage.
+
     
   
