@@ -3,11 +3,11 @@
 
 
 
-main.py: Outputs the results of the pretrained models, CNN, Deep CNN model 1 & 2, and ResNet.
-requirements.txt: The packages used in this project.
+main.py: Outputs the results of the pretrained models, CNN, Deep CNN model 1 & 2, and ResNet./n
+requirements.txt: The packages used in this project./n
 
-Dataset:
-This folder is currently empty. Please put PathMNIST.npz and PneumoniaMNIST.npz files into this folder. Then the program can read the data automatically.
+Dataset:/n
+This folder is currently empty. Please put PathMNIST.npz and PneumoniaMNIST.npz files into this folder. Then the program can read the data automatically./n
 
 Task A:
 This folder contains:
