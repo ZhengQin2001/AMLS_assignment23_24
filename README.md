@@ -10,7 +10,7 @@ requirements.txt: The packages used in this project.
 Dataset:
 This folder is currently empty. Please put PathMNIST.npz and PneumoniaMNIST.npz files into this folder. Then the program can read the data automatically.
 
-Task A:
+# Task A:
 
 This folder contains:
 
@@ -20,8 +20,10 @@ This folder contains:
   Model_training.py: This includes all the functionalities used for model training in Task A.
   test.py: This is the test file for the functionalities in preprocessing stage.
 
-Task B:
+# Task B:
+
 This folder contains:
+
   Three pretrained models:
     DeepCNN_refitted.keras: Deep CNN model 1
     DeepCNN_pretrained.keras: Deep CNN model 2
