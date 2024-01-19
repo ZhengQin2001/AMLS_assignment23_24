@@ -251,3 +251,16 @@ class Model_training_path_torch(nn.Module):
     def save_model(self, model, file_name="resnet34_trained.pth"):
         torch.save(model.state_dict(), file_name)
         print(f"Model saved to {file_name}")
+
+# Usage
+mtp = Model_training_path_torch()
+resnet34_model = mtp.load_resnet34_model(pretrained=True)
+
+print("Starting training...")
+mtp.train_model(resnet34_model, epochs=10, batch_size=32, learning_rate=0.001, weight_decay=0.001, patience=3)
+
+print("Saving the model...")
+mtp.save_model(resnet34_model, "resnet34_trained.pth")
+
+print("Evaluating on test set...")
+mtp.evaluate_model(resnet34_model)
