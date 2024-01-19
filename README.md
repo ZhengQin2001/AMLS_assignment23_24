@@ -1,4 +1,4 @@
-## AMLS Assignment 23_24
+# AMLS Assignment 23_24
 
 
 
@@ -7,10 +7,10 @@ main.py: Outputs the results of the pretrained models, CNN, Deep CNN model 1 & 2
 
 requirements.txt: The packages used in this project.
 
-Dataset:
+## Dataset:
 This folder is currently empty. Please put PathMNIST.npz and PneumoniaMNIST.npz files into this folder. Then the program can read the data automatically.
 
-# Task A:
+## Task A:
 
 This folder contains:
 
@@ -20,7 +20,7 @@ This folder contains:
   Model_training.py: This includes all the functionalities used for model training in Task A.
   test.py: This is the test file for the functionalities in preprocessing stage.
 
-# Task B:
+## Task B:
 
 This folder contains:
 
